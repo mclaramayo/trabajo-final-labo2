@@ -1,0 +1,29 @@
+{'caso': 'Sin barrera', 'roi_max_K': np.float64(3.5044), 't_pico_s': np.float64(640.0), 't_umbral_s': np.float64(187.2533), 'A_max_K': np.float64(12.4079), 'Bout_max_K': np.float64(4.7059), 'E_roi_J': np.float64(444.9392), 'E_roi_pct': np.float64(8.2396), 'E_barrera_J': np.float64(0.0), 'E_abertura_J': np.float64(3087.7571), 'balance_rel': np.float64(0.0)}
+{'caso': 'Barrera continua', 'roi_max_K': np.float64(1.2306), 't_pico_s': np.float64(4000.0), 't_umbral_s': np.float64(2932.4292), 'A_max_K': np.float64(13.8743), 'Bout_max_K': np.float64(1.3056), 'E_roi_J': np.float64(160.6467), 'E_roi_pct': np.float64(2.9749), 'E_barrera_J': np.float64(1064.2662), 'E_abertura_J': np.float64(0.0), 'balance_rel': np.float64(0.0)}
+{'caso': 'Abertura inferior (yc=0,02 m)', 'roi_max_K': np.float64(2.7401), 't_pico_s': np.float64(4000.0), 't_umbral_s': np.float64(705.4338), 'A_max_K': np.float64(13.2826), 'Bout_max_K': np.float64(5.5538), 'E_roi_J': np.float64(376.5022), 'E_roi_pct': np.float64(6.9723), 'E_barrera_J': np.float64(316.3572), 'E_abertura_J': np.float64(2470.2609), 'balance_rel': np.float64(0.0)}
+{'caso': 'Abertura central (yc=0,10 m)', 'roi_max_K': np.float64(3.1743), 't_pico_s': np.float64(2140.0), 't_umbral_s': np.float64(226.0228), 'A_max_K': np.float64(13.3642), 'Bout_max_K': np.float64(5.0241), 'E_roi_J': np.float64(416.8116), 'E_roi_pct': np.float64(7.7187), 'E_barrera_J': np.float64(196.8572), 'E_abertura_J': np.float64(2772.798), 'balance_rel': np.float64(0.0)}
+{'caso': 'Abertura superior (yc=0,18 m)', 'roi_max_K': np.float64(3.7148), 't_pico_s': np.float64(930.0), 't_umbral_s': np.float64(209.1564), 'A_max_K': np.float64(13.6074), 'Bout_max_K': np.float64(5.3004), 'E_roi_J': np.float64(411.9151), 'E_roi_pct': np.float64(7.6281), 'E_barrera_J': np.float64(334.2024), 'E_abertura_J': np.float64(2441.7112), 'balance_rel': np.float64(0.0)}
+('h', 0.01, 10.0, np.float64(3.11348271436013), np.float64(251.62436395115995), np.float64(205.18887907700073), np.float64(2751.53631068015))
+('h', 0.005, 10.0, np.float64(3.1743487299114155), np.float64(226.02279551692854), np.float64(196.85717504543896), np.float64(2772.797978674955))
+('h', 0.0025, 10.0, np.float64(3.2100602183285467), np.float64(214.36656387280274), np.float64(193.32452301578542), np.float64(2781.9634327691188))
+('dt', 0.005, 20.0, np.float64(3.172870984293996), np.float64(224.1703926987515), np.float64(196.8444335428473), np.float64(2772.545519264949))
+('dt', 0.005, 10.0, np.float64(3.1743487299114155), np.float64(226.02279551692854), np.float64(196.85717504543896), np.float64(2772.797978674955))
+('dt', 0.005, 5.0, np.float64(3.1750918184979873), np.float64(226.92718670802992), np.float64(196.86352769367113), np.float64(2772.924045070218))
+('dt', 0.005, 2.5, np.float64(3.1754643478532487), np.float64(227.370765719444), np.float64(196.86669909475407), np.float64(2772.9870333490317))
+['Sin barrera', np.float64(3.430452378587979), np.float64(197.01348549201774), np.float64(3.504359407501142), np.float64(187.25326535113757), np.float64(3.5449337753840107), np.float64(182.51882269388457)]
+['Barrera continua', np.float64(1.2202703499472376), np.float64(2982.6408709024827), np.float64(1.2305972919707997), np.float64(2932.4292257446973), np.float64(1.2354176350103014), np.float64(2909.767340907812)]
+['Abertura inferior (yc=0,02 m)', np.float64(2.7199315835083686), np.float64(748.355555099416), np.float64(2.7401239143355363), np.float64(705.433768006649), np.float64(2.7498123948957542), np.float64(685.0133706673922)]
+['Abertura central (yc=0,10 m)', np.float64(3.11348271436013), np.float64(251.62436395115995), np.float64(3.1743487299114155), np.float64(226.02279551692854), np.float64(3.2100602183285467), np.float64(214.36656387280274)]
+['Abertura superior (yc=0,18 m)', np.float64(3.5425722425414627), np.float64(223.21083981838262), np.float64(3.714793570938443), np.float64(209.15643973036038), np.float64(3.806383593541307), np.float64(202.6476515750349)]
+1D: pico medio 1.116 K, t_umbral(media) 2D-continua 1.116
+1D vs 2D continua: max|dif| curva roi_mean = 5.040e-03 K
+pico medio ROI abertura central: 2.895 K
+[[2.00000e-02 2.74000e+00 7.05434e+02 1.32830e+01 5.55400e+00]
+ [4.00000e-02 2.83700e+00 5.61042e+02 1.32210e+01 5.25200e+00]
+ [6.00000e-02 2.92300e+00 4.18719e+02 1.32440e+01 5.13700e+00]
+ [8.00000e-02 3.02600e+00 3.04530e+02 1.32980e+01 5.07300e+00]
+ [1.00000e-01 3.17400e+00 2.26023e+02 1.33640e+01 5.02400e+00]
+ [1.20000e-01 3.32900e+00 2.00864e+02 1.34300e+01 4.98700e+00]
+ [1.40000e-01 3.44300e+00 2.09084e+02 1.34910e+01 4.98300e+00]
+ [1.60000e-01 3.64800e+00 2.12289e+02 1.35440e+01 5.06000e+00]
+ [1.80000e-01 3.71500e+00 2.09156e+02 1.36070e+01 5.30000e+00]]
